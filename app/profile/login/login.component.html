@@ -1,0 +1,61 @@
+
+
+<div class="my-login-page">
+	
+		<div class="container">
+			<div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+        
+				
+					
+          <h1>Sign in to Github</h1>
+					<div class="card">
+						<div class="card-body">
+							
+							
+								<div class="form-group">
+                  <label for="inputUsername" class="sr-only">Username</label>
+                  <br>
+                
+
+                  <input type="username" id="inputUsername" class="form-control" [(ngModel)]="username" placeholder="username" required autofocus>
+									
+                </div>
+              <br>
+            
+
+								<div class="form-group">
+                  <label for="inputPassword" class="sr-only">Password</label>
+                  
+										
+                    <br>
+                    
+									
+									<input id="inputPassword" type="password" class="form-control" [(ngModel)]="password" placeholder="Password" required autofocus >
+								    
+								</div>
+
+                <br>
+                <br>
+
+								<div class="form-group m-0">
+									<button type="submit" class="btn btn-success btn-block" (click)="signinFunction()">
+										Sign in
+									</button>
+								</div>
+								
+							
+						</div>
+          </div>
+          <br>
+          <br>
+					<div class="footer">
+						Terms&nbsp;Privacy&nbsp;Contact Github
+					</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+	
